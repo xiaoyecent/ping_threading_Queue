@@ -8,4 +8,4 @@ python ping_thread.py ip
 ```
 python ping_threading.py ip
 ```
-自动扫描该ip所在c段内存活主机    threading模块+Queue实现多线程数据保护   速度较快   稳定性较强
+自动扫描该ip所在c段内存活主机    threading模块(写了个继承threading.Thread的子类class实现多线程)+Queue实现多线程数据保护   速度较快   稳定性较强
